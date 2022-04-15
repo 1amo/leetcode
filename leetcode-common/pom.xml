@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>leetcode-tree</artifactId>
-
-    <dependencies>
-        <dependency>
-            <artifactId>leetcode-common</artifactId>
-            <groupId>com.iamo</groupId>
-            <version>${project.parent.version}</version>
-        </dependency>
-    </dependencies>
+    <artifactId>leetcode-common</artifactId>
 
 
 </project>

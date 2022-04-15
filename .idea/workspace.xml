@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0391cb1-d6c7-4d9b-852c-22a42fe8a99e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode-tree/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/build/BulidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/common/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/ds/tree/BinaryTreeDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-tree/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,11 +53,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iamo.tree.binarytree.Solution" />
+      <module name="leetcode-tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iamo.tree.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649903575310</updated>
-      <workItem from="1649903577959" duration="99000" />
+      <workItem from="1649903577959" duration="7733000" />
+      <workItem from="1649984523802" duration="14949000" />
     </task>
     <servers />
   </component>
@@ -61,13 +106,85 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#Project_Structure" timestamp="1649904220560">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1649904220560" />
+    <state x="396" y="47" key="#xdebugger.evaluate" timestamp="1650013069664">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="396" y="47" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1650013069664" />
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1650015202292">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="460" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1650015202292" />
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1650015329107">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1650015329107" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1649903681587">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1649903681587" />
-    <state x="28" y="40" key="new project wizard" timestamp="1649903623284">
+    <state x="370" y="136" key="git4idea.merge.GitPullDialog" timestamp="1649903885018">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="28" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1649903623284" />
+    <state x="370" y="136" key="git4idea.merge.GitPullDialog/0.0.1280.689@0.0.1280.689" timestamp="1649903885018" />
+    <state x="28" y="40" key="new project wizard" timestamp="1649904134767">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1649904134767" />
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1650010761885">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1650010761885" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1650010661582">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1650010661582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

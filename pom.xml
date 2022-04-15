@@ -10,7 +10,30 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>leetcode-tree</module>
+        <module>leetcode-common</module>
     </modules>
+    <properties>
+        <!-- lombok版本 -->
+        <lombok.version>1.18.8</lombok.version>
 
+    </properties>
+
+    <dependencies>
+        <!-- lombok 通过注解自动生成get,set等方法 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--单元测试的依赖-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
 </project>
