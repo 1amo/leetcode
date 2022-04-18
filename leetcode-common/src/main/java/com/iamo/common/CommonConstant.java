@@ -10,7 +10,7 @@ public interface CommonConstant {
     /**
      *  空节点定义
      */
-    String NODE_NULL = "NULL";
+    String NODE_NULL = "null";
 
     /**
      *  根节点定义

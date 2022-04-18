@@ -32,11 +32,12 @@ public class Solution {
 
     public static void main(String[] args) {
         //测试源数据
-        String root = "1,2,3,NULL,NULL,4,5";
+        String root = "1,null,2,3";
+        String format = BulidUtils.formatBinaryTree(root);
         //转换成树结构
-        BinaryTreeDS binaryTreeDS = BulidUtils.binaryTreeDeserialize(root);
+        BinaryTreeDS binaryTreeDS = BulidUtils.binaryTreeDeserialize(format);
         System.out.println(binaryTreeDS);
-        List<Integer> integers = Solution.bulid().inorderTraversal(binaryTreeDS);
+        List<String> integers = Solution.bulid().inorderTraversal(binaryTreeDS);
         System.out.println(integers);
 
     }
@@ -53,19 +54,19 @@ public class Solution {
      * @Param: root 二叉树根节点
      * @Return: 中序遍历
      */
-    public List<Integer> inorderTraversal(BinaryTreeDS root) {
+    public List<String> inorderTraversal(BinaryTreeDS root) {
         //递归方式实现很简单但效率不高，这里通过非递归完成
 
 
 
         //中序遍历 左-根-右
         //1.第一种通过栈的方式迭代完成，同递归差不多，算是个显式的栈运用
-        List<Integer> integers = new Solution() {
+        List<String> integers = new Solution() {
             @Override
-            public List<Integer> inorderTraversal(BinaryTreeDS root) {
+            public List<String> inorderTraversal(BinaryTreeDS root) {
                 System.out.println("懒得重新写个方法，就用匿名内部类实现");
                 //返回的结果集
-                List<Integer> result = new ArrayList<Integer>();
+                List<String> result = new ArrayList<String>();
                 //初始化构建栈结构
                 Stack<BinaryTreeDS> stack = new Stack<BinaryTreeDS>();
                 //当源数据为空并且栈中没有数据的时候跳出

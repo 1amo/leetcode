@@ -45,7 +45,9 @@ public class BulidUtils {
         }
         //去掉最后的符号
         result.deleteCharAt(result.length() - 1);
-        return result.toString();
+        //标准化数据
+        String res = formatBinaryTree(result.toString());
+        return res;
     }
 
     /**
@@ -56,7 +58,7 @@ public class BulidUtils {
      */
     public static BinaryTreeDS binaryTreeDeserialize(final String path) {
         //过滤掉无效数据
-        if(path == null || path.length()<0 ||path.equals(CommonConstant.NODE_NULL)){
+        if (path == null || path.length() < 0 || path.equals(CommonConstant.NODE_NULL)) {
             return null;
         }
         //初始化二叉树
@@ -64,34 +66,45 @@ public class BulidUtils {
         //拆分路径
         String[] paths = path.split(CommonConstant.NODE_SPLIT);
         //定义队列，并赋初始值
-        binaryTree.setVal(Integer.valueOf(paths[0]));
-        Queue<BinaryTreeDS> queue = new LinkedList<BinaryTreeDS>(){{add(binaryTree);}};
-        int cumsum = 1;
-        while (!queue.isEmpty()){
+        binaryTree.setVal(paths[0]);
+        Queue<BinaryTreeDS> queue = new LinkedList<BinaryTreeDS>() {{
+            add(binaryTree);
+        }};
+        int cumsum = 0;
+        while (!queue.isEmpty()) {
             //获取出队数据
             BinaryTreeDS node = queue.poll();
             //防止下标越界,如果是标准数据可以不用添加，由于是完整的二叉树，所以输入的数据节点至少为3
-            if(paths.length <= cumsum){
+            if (paths.length-1 <= cumsum) {
                 break;
             }
             //由于层次遍历源数据，因此先左后右存入队列
-            if(!paths[cumsum].equals(CommonConstant.NODE_NULL)){
+            if (!paths[++cumsum].equals(CommonConstant.NODE_NULL)) {
                 //补充左节点数据
-                node.setLeft(new BinaryTreeDS(Integer.valueOf(paths[cumsum])));
+                node.setLeft(new BinaryTreeDS(paths[cumsum]));
                 queue.add(node.getLeft());
             }
-            //迭代下一个路径数据
-            cumsum++;
             //存入右侧数据
-            if(!paths[cumsum].equals(CommonConstant.NODE_NULL)){
+            if (!paths[++cumsum].equals(CommonConstant.NODE_NULL)) {
                 //补充右节点数据
-                node.setRight(new BinaryTreeDS(Integer.valueOf(paths[cumsum])));
+                node.setRight(new BinaryTreeDS(paths[cumsum]));
                 queue.add(node.getRight());
             }
-            //迭代下一个路径数据
-            cumsum++;
         }
 
         return binaryTree;
+    }
+
+    /**
+     * 标准话数据源，生产完整二叉树结构
+     *
+     * @Param: path     树路径
+     * @Return: 格式化树路径
+     */
+    public static String formatBinaryTree(String path) {
+        if (path != null && path.length() > 0 && path.split(CommonConstant.NODE_SPLIT).length % 2 == 0) {
+            return path+CommonConstant.NODE_SPLIT+CommonConstant.NODE_NULL;
+        }
+        return path;
     }
 }
