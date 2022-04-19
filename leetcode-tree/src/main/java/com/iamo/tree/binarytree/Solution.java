@@ -33,29 +33,24 @@ public class Solution {
 
     public static void main(String[] args) {
         //测试源数据
-        String root = "1,null,2,3";
+        String root = "1,2,3,null,4,5,null,6";
+        //格式化
         String format = BulidUtils.formatBinaryTree(root);
         //转换成树结构
         BinaryTreeDS binaryTreeDS = BulidUtils.binaryTreeDeserialize(format);
         System.out.println(binaryTreeDS);
-        List<String> integers = Solution.bulid().inorderTraversal(binaryTreeDS,TreeTraverseMode.POSTORDER_TRAVERSAL);
+        List<String> integers = Solution.bulid().treeTraversal(binaryTreeDS,TreeTraverseMode.PREORDER_TRAVERSAL);
         System.out.println(integers);
 
     }
 
     /**
-     * <p>二叉树的中序遍历 (给定一个二叉树的根节点 root ，返回 它的 中序 遍历)
-     * <pre>
-     *    样例：
-     *       输入：root = [1,null,2,3]
-     *       输出：[1,3,2]
-     *   </pre>
-     * 地址： {@link String <tt> https://leetcode-cn.com/problems/binary-tree-inorder-traversal/</tt>}
-     *
-     * @Param: root 二叉树根节点
-     * @Return: 中序遍历
+     *  树的遍历
+     * @Param: root 树结构
+     * @Param: mode 遍历方式（先，中，后）
+     * @Return: 遍历结果
      */
-    public List<String> inorderTraversal(BinaryTreeDS root,String mode) {
+    public List<String> treeTraversal(BinaryTreeDS root,String mode) {
         //递归方式实现很简单但效率不高，这里通过非递归完成
         List<String> integers;
 
@@ -71,7 +66,7 @@ public class Solution {
          * */
         integers = new Solution() {
             @Override
-            public List<String> inorderTraversal(BinaryTreeDS root,String mode) {
+            public List<String> treeTraversal(BinaryTreeDS root,String mode) {
                 System.out.println("懒得重新写个方法，就用匿名内部类实现 迭代方式，显式使用栈");
                 //返回的结果集
                 List<String> result = new ArrayList<String>();
@@ -154,13 +149,13 @@ public class Solution {
                 return result;
             }
 
-        }.inorderTraversal(root,mode);
+        }.treeTraversal(root,mode);
 
 
         /**
          * 2.
          * 用递归和迭代的方式都使用了辅助的空间，而莫里斯遍历的优点是没有使用任何辅助空间。
-         * 缺点是改变了整个树的结构，强行把一棵二叉树改成一段链表结构。
+         * 缺点是改变了整个树的结构，强行把一棵二叉树改成一段(不完整的)链表结构。相当于只有结果输出，树的结构已经破坏
          *
          * 时间复杂度:找到每个前驱节点的复杂度是 O(n)，因为 n 个节点的二叉树有 n-1条边，每条边只可能使用 2 次(一次定位到节点，一次找到前驱节点)，故时间复杂度为 O(n)
          * 空间复杂度：O(1)
@@ -168,18 +163,21 @@ public class Solution {
          * */
         integers =  new Solution(){
             @Override
-            public List<String> inorderTraversal(BinaryTreeDS root,String mode) {
+            public List<String> treeTraversal(BinaryTreeDS root,String mode) {
                 System.out.println("懒得重新写个方法，就用匿名内部类实现 莫里斯(Morris)遍历");
                 //返回的结果集
                 List<String> result = new ArrayList<String>();
+
+
                 //先序
                 if(TreeTraverseMode.PREORDER_TRAVERSAL.equals(mode)){
 
                 }
+                
                 //中序
                 if(TreeTraverseMode.INORDER_TRAVERSAL.equals(mode)){
                     //定义树结构，用于嫁接节点
-                    BinaryTreeDS graft;
+                    BinaryTreeDS graft ;
                     while (root != null){
                         //判断左子树是否为空，不为空则进行嫁接操作，将当前节点的右子树（包括当前节点）全部嫁接到当前节点下一个左节点的最终右节点上
                         if(root.getLeft() != null){
@@ -211,7 +209,7 @@ public class Solution {
                 System.out.println("莫里斯迭代："+result);
                 return result;
             }
-        }.inorderTraversal(root,mode);
+        }.treeTraversal(root,mode);
 
 
 
