@@ -1,6 +1,6 @@
 package com.iamo.tree.binarytree;
 
-import com.iamo.build.BulidUtils;
+import com.iamo.build.BuildUtils;
 import com.iamo.common.TreeTraverseMode;
 import com.iamo.ds.tree.BinaryTreeDS;
 
@@ -35,12 +35,13 @@ public class Solution {
         //测试源数据
         String root = "1,2,3,null,4,5,null,6";
         //格式化
-        String format = BulidUtils.formatBinaryTree(root);
+        String format = BuildUtils.formatBinaryTree(root);
         //转换成树结构
-        BinaryTreeDS binaryTreeDS = BulidUtils.binaryTreeDeserialize(format);
+        BinaryTreeDS binaryTreeDS = BuildUtils.binaryTreeDeserialize(format);
         System.out.println(binaryTreeDS);
         List<String> integers = Solution.bulid().treeTraversal(binaryTreeDS,TreeTraverseMode.PREORDER_TRAVERSAL);
         System.out.println(integers);
+        System.out.println("".length());
 
     }
 
@@ -173,7 +174,7 @@ public class Solution {
                 if(TreeTraverseMode.PREORDER_TRAVERSAL.equals(mode)){
 
                 }
-                
+
                 //中序
                 if(TreeTraverseMode.INORDER_TRAVERSAL.equals(mode)){
                     //定义树结构，用于嫁接节点

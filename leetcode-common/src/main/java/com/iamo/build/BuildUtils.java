@@ -9,9 +9,9 @@ import java.util.Queue;
 /**
  * @ Author：    qiu ji xing
  * @ Date：      2022/4/15 9:40
- * @ Description： 结构构建工具磊
+ * @ Description： 结构构建工具类
  */
-public class BulidUtils {
+public class BuildUtils {
 
     /**
      * 序列化二叉树  层次遍历（BFS）输出
@@ -96,7 +96,7 @@ public class BulidUtils {
     }
 
     /**
-     * 标准话数据源，生产完整二叉树结构
+     * 标准化数据源，生产完整二叉树结构
      *
      * @Param: path     树路径
      * @Return: 格式化树路径

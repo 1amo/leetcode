@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0391cb1-d6c7-4d9b-852c-22a42fe8a99e" name="Default Changelist" comment="">
+    <list default="true" id="b0391cb1-d6c7-4d9b-852c-22a42fe8a99e" name="Default Changelist" comment="fix:补充">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/build/BulidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/build/BuildUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/META-INF/leetcode-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/common/CommonConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/common/TreeTraverseMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/ds/tree/BinaryTreeDS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/ds/tree/TreeDS.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iamo-tool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +106,14 @@
       <workItem from="1650029023975" duration="679000" />
       <workItem from="1650088203279" duration="1420000" />
       <workItem from="1650244242135" duration="18121000" />
-      <workItem from="1650331470441" duration="9960000" />
+      <workItem from="1650331470441" duration="13775000" />
+      <workItem from="1650415919747" duration="2411000" />
+      <workItem from="1650769126826" duration="1726000" />
+      <workItem from="1650850887916" duration="3798000" />
+      <workItem from="1650931947018" duration="1797000" />
+      <workItem from="1651016819754" duration="2583000" />
+      <workItem from="1665473810682" duration="1409000" />
+      <workItem from="1665536253255" duration="245000" />
     </task>
     <servers />
   </component>
@@ -102,81 +121,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="4" key="#Project_Structure" timestamp="1649904220560">
+    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1665536510050">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="4" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1649904220560" />
-    <state x="396" y="47" key="#xdebugger.evaluate" timestamp="1650247514622">
+    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1665536510050" />
+    <state width="1237" height="356" key="GridCell.Tab.0.bottom" timestamp="1665536544032">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="396" y="47" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1650247514622" />
-    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1650247998619">
+    <state width="1237" height="356" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
+    <state width="1237" height="356" key="GridCell.Tab.0.center" timestamp="1665536544032">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="460" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1650247998619" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1650346060028">
+    <state width="1237" height="356" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
+    <state width="1237" height="356" key="GridCell.Tab.0.left" timestamp="1665536544032">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1650346060028" />
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1650346716652">
+    <state width="1237" height="356" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
+    <state width="1237" height="356" key="GridCell.Tab.0.right" timestamp="1665536544032">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1663" height="246" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106262" />
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106262" />
-    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106262" />
-    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106262" />
-    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.1.bottom" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106029" />
-    <state width="1237" height="108" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.1.center" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106029" />
-    <state width="1237" height="108" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.1.left" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106029" />
-    <state width="1237" height="108" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state width="1237" height="108" key="GridCell.Tab.1.right" timestamp="1650346716652">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1663" height="246" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1707.929@1920.0.1707.929" timestamp="1650089106029" />
-    <state width="1237" height="108" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1650346716652" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1649903681587">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1649903681587" />
-    <state x="370" y="136" key="git4idea.merge.GitPullDialog" timestamp="1649903885018">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="370" y="136" key="git4idea.merge.GitPullDialog/0.0.1280.689@0.0.1280.689" timestamp="1649903885018" />
-    <state x="28" y="40" key="new project wizard" timestamp="1649904134767">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="28" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1649904134767" />
-    <state x="343" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1650010761885">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="343" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1650010761885" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1650265610829">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1650265610829" />
+    <state width="1237" height="356" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
   </component>
 </project>
