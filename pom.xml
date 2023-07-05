@@ -11,6 +11,8 @@
     <modules>
         <module>leetcode-tree</module>
         <module>leetcode-common</module>
+        <module>leetcode-sort</module>
+        <module>leetcode-array</module>
     </modules>
     <properties>
         <!-- lombok版本 -->

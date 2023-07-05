@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="leetcode-tree" />
+        <module name="leetcode-sort" />
         <module name="leetcode-common" />
+        <module name="leetcode-tree" />
+        <module name="leetcode-array" />
       </profile>
     </annotationProcessing>
   </component>

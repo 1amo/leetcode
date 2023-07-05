@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b0391cb1-d6c7-4d9b-852c-22a42fe8a99e" name="Default Changelist" comment="fix:补充">
+      <change afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/utils/PermutationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sort/src/main/java/com/iamo/sort/permutation/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/build/BulidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/build/BuildUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/META-INF/leetcode-common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/build/BulidUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/common/CommonConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/common/TreeTraverseMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/ds/tree/BinaryTreeDS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-common/target/classes/com/iamo/ds/tree/TreeDS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/ds/tree/TreeDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-common/src/main/java/com/iamo/ds/tree/TreeDS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/src/main/java/com/iamo/tree/binarytree/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-tree/target/classes/com/iamo/tree/binarytree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +26,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,11 +44,6 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../Environment/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\Programming\Environment\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="27lnX1jOn3UWcIO9fF4fAcLrUep" />
@@ -55,23 +54,31 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Programming/work/rotai-wms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iamo.sort.permutation.Solution" />
+      <module name="leetcode-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iamo.sort.permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.iamo.tree.binarytree.Solution" />
       <module name="leetcode-tree" />
@@ -87,10 +94,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,33 +122,31 @@
       <workItem from="1650931947018" duration="1797000" />
       <workItem from="1651016819754" duration="2583000" />
       <workItem from="1665473810682" duration="1409000" />
-      <workItem from="1665536253255" duration="245000" />
+      <workItem from="1665536253255" duration="2753000" />
+      <workItem from="1669170870855" duration="4013000" />
+      <workItem from="1673579652769" duration="603000" />
+      <workItem from="1673831958567" duration="599000" />
+      <workItem from="1673919135865" duration="268000" />
+      <workItem from="1688377755191" duration="326000" />
+      <workItem from="1688443416349" duration="544000" />
+      <workItem from="1688480856007" duration="656000" />
     </task>
+    <task id="LOCAL-00001" summary="fix:补充">
+      <created>1665536571844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665536571844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1665536510050">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1665536510050" />
-    <state width="1237" height="356" key="GridCell.Tab.0.bottom" timestamp="1665536544032">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
-    <state width="1237" height="356" key="GridCell.Tab.0.center" timestamp="1665536544032">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
-    <state width="1237" height="356" key="GridCell.Tab.0.left" timestamp="1665536544032">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
-    <state width="1237" height="356" key="GridCell.Tab.0.right" timestamp="1665536544032">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="356" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1665536544032" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix:补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:补充" />
   </component>
 </project>

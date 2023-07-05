@@ -75,7 +75,7 @@ public class Solution {
                 if(TreeTraverseMode.PREORDER_TRAVERSAL.equals(mode)){
                     //初始化构建栈结构
                     Stack<BinaryTreeDS> stack = new Stack<BinaryTreeDS>();
-                    //当源数据为空并且栈中没有数据的时候跳出
+                    //当源数据为空或者栈中没有数据的时候跳出
                     while (root != null || !stack.isEmpty()) {
                         //root源数据不为空，进行进栈操作，当跳出循环时，说明栈顶存放的是最左边子树的节点
                         while (root != null) {

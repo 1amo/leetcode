@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>leetcode-common</artifactId>
+    <artifactId>leetcode-sort</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -24,4 +24,11 @@
     </build>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.iamo</groupId>
+            <artifactId>leetcode-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 </project>
