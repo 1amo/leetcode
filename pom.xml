@@ -13,6 +13,7 @@
         <module>leetcode-common</module>
         <module>leetcode-sort</module>
         <module>leetcode-array</module>
+        <module>leetcod-other</module>
     </modules>
     <properties>
         <!-- lombok版本 -->
